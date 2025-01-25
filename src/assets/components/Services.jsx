@@ -1,8 +1,12 @@
 import React from 'react'
+import Links from './Links'
 
 function Services() {
   return (
-    <div>Services</div>
+   <>
+   <h1>Services</h1>
+   <Links/>
+   </>
   )
 }
 
