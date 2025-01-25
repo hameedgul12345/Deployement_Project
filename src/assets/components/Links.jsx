@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Links from './Links'
-function Home() {
+
+function Links() {
   return (
    <>
-   <h1>Home</h1>
-  <Links/>
-   
+   <Link to={'/'}>Home</Link>
    
    </>
   )
 }
 
-export default Home
+export default Links
