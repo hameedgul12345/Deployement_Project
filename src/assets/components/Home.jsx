@@ -5,6 +5,7 @@ function Home() {
    <>
    <h1>Home</h1>
    <Link to={'/'}>Home</Link>
+   <Link to={'services'}>Services</Link>
    
    
    </>
